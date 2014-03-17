@@ -1,0 +1,15 @@
+heroku config:set HUBOT_SLACK_TOKEN=gA3aE4DYLCA1Vy9t3M9duRHF
+heroku config:set HUBOT_SLACK_TEAM=awptech
+heroku config:set HUBOT_SLACK_BOTNAME=awpbot
+heroku config:set HEROKU_URL=http://awpbot.herokuapp.com
+
+
+FROM https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
+
+
+
+heroku config:set HUBOT_SLACK_TOKEN=7YrlEIFIfiXhikU789ZxcpjY
+heroku config:set HUBOT_SLACK_TEAM=dstcontrols
+heroku config:set HUBOT_SLACK_BOTNAME=dstbot
+heroku config:set HEROKU_URL=http://dstbot.herokuapp.com
+heroku config:set HUBOT_AUTH_ADMIN=andrew
