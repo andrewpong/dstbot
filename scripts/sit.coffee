@@ -10,7 +10,7 @@
 module.exports = (robot) ->
   robot.respond /SIT$/i, (msg) ->
     msg.send "Meow! Only if you give me a bully stick!"
-
+#
 #  robot.respond /ADAPTER$/i, (msg) ->
 #    msg.send robot.adapterName
 #
@@ -23,4 +23,3 @@ module.exports = (robot) ->
 #  robot.respond /DIE$/i, (msg) ->
 #    msg.send "Goodbye, cruel world."
 #    process.exit 0
-#
